@@ -1,0 +1,11 @@
+{
+    "name": "mi-proyecto-n8n",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "n8n"
+    },
+    "dependencies": {
+      "n8n": "^0.200.0"  // Ajusta la versión según la que necesites
+    }
+  }
+  
