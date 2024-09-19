@@ -5,7 +5,7 @@ FROM n8nio/n8n:latest
 WORKDIR /data
 
 # Exponemos el puerto por el que n8n servirá la aplicación (el puerto predeterminado es 5678)
-EXPOSE 33248
+EXPOSE 5678
 
 # Finalmente, el comando que ejecuta n8n cuando se inicia el contenedor
-CMD ["n8n"]
+CMD ["n8n", "start"]
