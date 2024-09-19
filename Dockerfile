@@ -1,8 +1,10 @@
 FROM n8nio/n8n
+
+# Establecer el directorio de trabajo en /data para n8n
 WORKDIR /data
 
-# Expón el puerto que n8n usa
+# Exponer el puerto 5678 que usa n8n
 EXPOSE 5678
 
-# Ejecuta n8n cuando inicie el contenedor
-CMD ["n8n"]
+# Comando para iniciar n8n
+CMD ["n8n", "start"]
